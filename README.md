@@ -8,7 +8,7 @@ This repository contains a Jupyter/Colab notebook demonstrating how to run the *
 
 ## 🚀 Overview
 
-Running large language models (10B+ parameters) typically requires high-end GPUs with significant VRAM. [AirLLM](https://github.com/lyogavin/Anima/tree/main/air_llm) enables the inference of these large models on consumer-grade GPUs (or free-tier Google Colab instances) by utilizing **layer-wise inference**. This technique loads the model layer-by-layer rather than loading the entire model into VRAM at once.
+Running large language models (10B+ parameters) typically requires high-end GPUs with significant VRAM. [AirLLM](https://github.com/lyogavin/airllm) enables the inference of these large models on consumer-grade GPUs (or free-tier Google Colab instances) by utilizing **layer-wise inference**. This technique loads the model layer-by-layer rather than loading the entire model into VRAM at once.
 
 ## 📋 Prerequisites
 
